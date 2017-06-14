@@ -8,7 +8,7 @@ import java.lang.reflect.Field;
 import java.util.Scanner;
 
 /**
- * Created by ZNing on 2017/6/13.
+ * Created by tangaqi on 2017/6/13.
  */
 
 public class ERPConsole {
@@ -145,55 +145,55 @@ public class ERPConsole {
     }
 
     public static void OutputTable(){
-        System.out.print("时段,");
+        System.out.print("时段\t");
         for(int i=0; i<11; i++){
             int week=i+1;
-            System.out.print("第"+week+"周,");
+            System.out.print("第"+week+"周\t");
         }
         System.out.println("");
-        System.out.print("预测量,");
+        System.out.print("预测量\t");
         for(int i=0; i<11; i++){
-            System.out.print(rc.ForecastVol[i]+",");
+            System.out.print(rc.ForecastVol[i]+"\t");
         }
         System.out.println("");
-        System.out.print("合同量,");
+        System.out.print("合同量\t");
         for(int i=0; i<11; i++){
-            System.out.print(rc.ContractVol[i]+",");
+            System.out.print(rc.ContractVol[i]+"\t");
         }
         System.out.println("");
-        System.out.print("毛需求,");
+        System.out.print("毛需求\t");
         for(int i=0; i<11; i++){
-            System.out.print(rc.GrossDemand[i]+",");
+            System.out.print(rc.GrossDemand[i]+"\t");
         }
         System.out.println("");
-        System.out.print("计划接收量,");
+        System.out.print("计划接收量\t");
         for(int i=0; i<11; i++){
-            System.out.print(rc.PlannedReceipt[i]+",");
+            System.out.print(rc.PlannedReceipt[i]+"\t");
         }
         System.out.println("");
-        System.out.print("预计库存量,");
+        System.out.print("预计库存量\t");
         for(int i=0; i<11; i++){
-            System.out.print(rc.EstimatedInventory[i]+",");
+            System.out.print(rc.EstimatedInventory[i]+"\t");
         }
         System.out.println("");
-        System.out.print("净需求,");
+        System.out.print("净需求\t");
         for(int i=0; i<11; i++){
-            System.out.print(rc.NetDemand[i]+",");
+            System.out.print(rc.NetDemand[i]+"\t");
         }
         System.out.println("");
-        System.out.print("计划产出量,");
+        System.out.print("计划产出量\t");
         for(int i=0; i<11; i++){
-            System.out.print(rc.PlannedOutput[i]+",");
+            System.out.print(rc.PlannedOutput[i]+"\t");
         }
         System.out.println("");
-        System.out.print("计划投入量,");
+        System.out.print("计划投入量\t");
         for(int i=0; i<11; i++){
-            System.out.print(rc.PlannedInput[i]+",");
+            System.out.print(rc.PlannedInput[i]+"\t");
         }
         System.out.println("");
-        System.out.print("可供销售量,");
+        System.out.print("可供销售量\t");
         for(int i=0; i<11; i++){
-            System.out.print(rc.AvailableSales[i]+",");
+            System.out.print(rc.AvailableSales[i]+"\t");
         }
     }
 

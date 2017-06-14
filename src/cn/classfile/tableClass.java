@@ -1,7 +1,7 @@
 package cn.classfile;
 
 /**
- * Created by ZNing on 2017/6/13.
+ * Created by tangaqi on 2017/6/13.
  */
 public class tableClass {
     public int MaterId; //物料号
